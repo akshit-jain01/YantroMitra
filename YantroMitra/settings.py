@@ -150,7 +150,7 @@ CLOUDINARY_STORAGE = {
 DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
 
 CSRF_TRUSTED_ORIGINS = [
-    'http://localhost:8000', 'https://yantromitra-production.up.railway.app'
+    'http://localhost:8000', 'https://yantromitra-production.up.railway.app','https://yantro-mitra.vercel.app'
 ]
 ALLOWED_HOSTS = ['*']
 
