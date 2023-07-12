@@ -93,7 +93,7 @@ DATABASES = {
         'NAME': 'YantroMitra',
         'USER': 'postgres',
         'PASSWORD': '1234',
-        'HOST': 'localhost',
+        'HOST': '127.0.0.1',
         'PORT': '5432',
     }
 }
