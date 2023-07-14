@@ -1,4 +1,5 @@
 from django.shortcuts import render
+from django.http import HttpResponse
 from .models import Associations, Notifications, Memories
 from .serializers import AssociationsSerializer, NotificationsSerializer, MemoriesSerializer
 from rest_framework.response import Response
@@ -44,4 +45,8 @@ class MemoriesView(APIView):
                 'data':serializer.errors,
                 'message':'something went wrong'
             }, status=status.HTTP_400_BAD_REQUEST)
+        
+class message(APIView):
+    def post(self):
+        return HttpResponse("hi there")
 
