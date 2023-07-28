@@ -46,7 +46,7 @@ class MemoriesView(APIView):
                 'message':'something went wrong'
             }, status=status.HTTP_400_BAD_REQUEST)
         
-class message(APIView):
-    def post(self):
-        return HttpResponse("hi there")
+# class message(APIView):
+#     def post(self):
+#         return HttpResponse("hi there")
 
