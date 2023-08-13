@@ -42,7 +42,7 @@ class MemoriesView(APIView):
             return Response(serializer.data)
         except:
             return Response({
-                'data':serializer.errors,
+                # 'data':serializer.errors,
                 'message':'something went wrong'
             }, status=status.HTTP_400_BAD_REQUEST)
         

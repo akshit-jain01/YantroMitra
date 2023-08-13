@@ -17,4 +17,4 @@ class NotificationsSerializer(serializers.ModelSerializer):
 class MemoriesSerializer(serializers.ModelSerializer):
     class Meta:
         model = Memories
-        fields = ['id', 'title', 'video', 'description']
+        fields = ['id', 'title', 'image', 'description']
