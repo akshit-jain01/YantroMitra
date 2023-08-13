@@ -91,11 +91,11 @@ DATABASES = {
     # }
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'railway',
+        'NAME': 'postgres',
         'USER': 'postgres',
-        'PASSWORD': 'MW2dKFoe8yD5YOVa2WLP',
-        'HOST': 'containers-us-west-64.railway.app',
-        'PORT': '5616',
+        'PASSWORD': 'Ajain*112003',
+        'HOST': 'db.lqdvbetohjjwysxtjbwn.supabase.co',
+        'PORT': '5432',
     }
 }
 
@@ -134,7 +134,7 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.1/howto/static-files/
 
-STATICFILES_DIRS = [BASE_DIR / 'static',]
+# STATICFILES_DIRS = [BASE_DIR / 'static',]
 STATIC_URL = '/static/'
 # STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
