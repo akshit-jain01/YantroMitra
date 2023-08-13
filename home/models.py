@@ -17,7 +17,7 @@ class Associations(models.Model):
     
 class Memories(models.Model):
     title = models.CharField(max_length=250, null=False)
-    video = models.FileField(upload_to='Memories')
+    image = models.FileField(upload_to='Memories')
     description = models.CharField(max_length=250)
 
     def __str__(self):
